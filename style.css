@@ -1,0 +1,111 @@
+@font-face{
+    font-family: mera;
+    src: url(./Assets/Anton-Regular.ttf)}
+@font-face{
+    font-family: mera2;
+    src:url(./Assets/Courgette/Courgette-Regular.ttf)}
+
+body {
+    background-image: url(./Assets/bg3.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+.box{
+    background-color:rgba(0, 0, 0,0.7);
+    border-radius: 25px;
+    box-shadow: 7px 4px 2px rgba(0, 0, 0,0.8) ;
+    height: max-content; 
+    width: 70%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin: 20px auto;
+    margin-top: 20px;
+    /* padding: 0px 40px 40px 50px ; */
+    text-align: center;
+    
+    
+  
+}
+.content{
+    color: #ffff;
+    
+    font-family: mera2;
+}
+.content h1 {
+    font-size: 50px;
+}
+.box2{
+    
+    height: 50px;
+    width: 50px;
+    color: rgb(255, 255, 255);
+    font-family: mera;
+    font-size: 30px;
+    
+    
+}
+.counter{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-family: mera;
+    /* margin: 20px ; */
+ 
+}
+
+
+
+@media screen and (max-width: 1320px){
+   
+ 
+
+}
+
+@media screen and (max-width: 960px){
+
+}
+@media screen and (max-width:480px){
+
+    
+
+}
+@media screen and (max-width:380px){
+    .content h1{
+        font-size: 15px;
+    }
+    .content p{
+        font-size: 8px;
+    }
+    .box2{
+        font-size: 10px;
+    }
+    .counter{
+        margin-top:30px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-family: mera;
+        
+     
+    }
+    .box{
+        height: 75%; 
+        width: 65%;
+    }
+    .nextline{
+    white-space: 50PX;
+    }
+    
+
+}
