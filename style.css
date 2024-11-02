@@ -100,8 +100,8 @@ body {
      
     }
     .box{
-        height: 45%; 
-        width: 65%;
+        height: max-content; 
+        width: 90%;
     }
     .nextline{
     white-space: 50PX;
