@@ -70,6 +70,29 @@ body {
 
 
 @media screen and (max-width: 1320px){
+    .content h1{
+        font-size: 50px;
+    }
+    .content p{
+        font-size: 18px;
+    }
+    .box2{
+        font-size: 30px;
+    }
+    .counter{
+        margin-top:70px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-family: mera;
+        
+     
+    }
+    .box{
+        height: 70%; 
+        width: 65%;
+        margin-top: 40px;
+    }
    
  
 
@@ -77,13 +100,13 @@ body {
 
 @media screen and (max-width: 960px){
     .content h1{
-        font-size: 20px;
+        font-size: 30px;
     }
     .content p{
-        font-size: 14px;
+        font-size: 16px;
     }
     .box2{
-        font-size: 16px;
+        font-size: 19px;
     }
     .counter{
         margin-top:50px;
@@ -96,7 +119,7 @@ body {
     }
     .box{
         height: max-content; 
-        width: 80%;
+        width: 70%;
         margin-top: 40px;
     }
     
@@ -152,7 +175,7 @@ body {
      
     }
     .box{
-        height:max-content; 
+        height:70%; 
         width: 90%;
     }
     .nextline{
