@@ -4,6 +4,9 @@
 @font-face{
     font-family: mera2;
     src:url(./Assets/Courgette/Courgette-Regular.ttf)}
+@font-face{
+    font-family: mera3;
+    src:url(./Assets/Playwrite_GB_S/static/PlaywriteGBS-Italic.ttf)}
 
 body {
     background-image: url(./Assets/bg3.avif);
@@ -59,7 +62,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 40px;
-    font-family: mera;
+    font-family: mera3;
     /* margin: 20px ; */
  
 }
@@ -83,7 +86,7 @@ body {
         font-size: 14px;
     }
     .box2{
-        font-size: 18px;
+        font-size: 16px;
     }
     .counter{
         margin-top:30px;
@@ -113,7 +116,7 @@ body {
         font-size: 14px;
     }
     .counter{
-        margin-top:30px;
+        margin-top:50px;
         display: flex;
         justify-content: center;
         gap: 20px;
@@ -122,12 +125,14 @@ body {
      
     }
     .box{
-        height:50%; 
+        height:max-content; 
         width: 90%;
     }
     .nextline{
     white-space: 50PX;
     }
-    
+    .box{
+        margin-top: 50px;
+    }
 
 }
